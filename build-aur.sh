@@ -14,50 +14,40 @@ WHITE="$(printf '\033[37m')"    BLACK="$(printf '\033[30m')"
 DIR="$(pwd)"
 PKGDIR="$DIR/packages_aur"
 
-LIST=(blight
-	  cava
-	  ksuperkey
-	  unimatrix-git
-	  xfce-polkit
-	  ckbcomp
-	  mkinitcpio-openswap
-	  mkinitcpio-firmware
+LIST=(aic94xx-firmware
 	  ast-firmware
-	  aic94xx-firmware
-	  upd72020x-fw
-	  wd719x-firmware
-	  i3lock-color
+	  berry
 	  betterlockscreen
+	  blight
+	  ckbcomp
+	  cwm
+	  downgrade
+	  evilwm
+	  gtk-engine-murrine
+	  gtk3-nocsd-git
+	  gtkmm
+	  i3lock-color
+	  ksuperkey
+	  light
+	  mkinitcpio-firmware
+	  mkinitcpio-openswap
+	  #newm-next-git
 	  networkmanager-dmenu-git
+	  nitrogen
 	  obmenu-generator
 	  perl-linux-desktopfiles
-	  berry
-	  gtk-engine-murrine
-	  nitrogen
-	  gtkmm
-	  #wayfire
-	  wf-config
-	  #wayfire-plugins-extra
-	  #newm-atha-git
-	  python-thefuzz
-	  #python-dasbus
-	  #python-imageio
-	  #wlr-randr
-	  wlogout
-	  yay
 	  picom-ibhagwan-git
-	  downgrade
-	  mugshot
-	  gtk3-nocsd-git
-	  simplescreenrecorder
+	  python-thefuzz
 	  rofi-lbonn-wayland-git
 	  sddm-git
-	  wdisplays
-	  #swayfx
-	  #swaylock-effects
-	  evilwm
-	  cwm
-	  light
+	  simplescreenrecorder
+	  unimatrix-git
+	  upd72020x-fw
+	  wayfire-plugins-extra
+	  wd719x-firmware
+	  wlogout
+	  xfce-polkit
+	  yay
 	  )
 
 ## Sort packages
