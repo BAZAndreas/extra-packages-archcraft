@@ -122,7 +122,7 @@ Item {
             }
 
             background: Rectangle {
-                radius: config.RoundCorners / 2
+                radius: config.PopupRadius || config.RoundCorners / 5
                 color: config.BackgroundColor
                 layer.enabled: true
                 layer.effect: DropShadow {

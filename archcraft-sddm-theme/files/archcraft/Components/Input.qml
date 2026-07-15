@@ -85,6 +85,10 @@ Column {
                 }
             }
 
+            contentItem: Item {
+                // Prevent the ComboBox from drawing its current text (username).
+            }
+
             indicator: Button {
                     id: usernameIcon
                     width: selectUser.height * 0.8
@@ -95,6 +99,7 @@ Column {
                     icon.height: parent.height * 0.25
                     icon.width: parent.height * 0.25
                     enabled: false
+                    background: Item {}
                     icon.color: root.palette.text
                     icon.source: Qt.resolvedUrl("../Assets/User.svgz")
             }
@@ -121,7 +126,7 @@ Column {
                 }
 
                 background: Rectangle {
-                    radius: config.RoundCorners / 2
+                    radius: config.PopupRadius || config.RoundCorners / 5
                     color: root.palette.window
                     layer.enabled: true
                     layer.effect: DropShadow {
