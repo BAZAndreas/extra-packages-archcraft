@@ -1,10 +1,9 @@
 [SddmGreeterTheme]
-Name=Archcraft
-Description=Default sddm greeter theme for Archcraft
+Name=Archcraft-QT5
+Description=Default qt5 sddm greeter theme for Archcraft
 Version=2.0
-Theme-Id=archcraft
-Theme-API=2.0
-QtVersion=6
+Theme-Id=archcraft-qt5
+Theme-API=2.11
 Author=Aditya Shakya
 Email=adi1090x@gmail.com
 Copyright=Copyright (C) 2021 Aditya Shakya

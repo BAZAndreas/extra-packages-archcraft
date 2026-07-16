@@ -1,13 +1,14 @@
 # Maintainer: Aditya Shakya <adi1090x@gmail.com>
 
 pkgname=archcraft-sddm-theme
-pkgver=1.0
-pkgrel=8
-pkgdesc="Default sddm theme for Archcraft"
+pkgver=2.0
+pkgrel=0
+pkgdesc="Default sddm themes for Archcraft"
 arch=('any')
 url="https://github.com/archcraft-os/extra-packages"
 license=('GPL3')
-depends=('sddm' 'qt5-declarative' 'qt5-graphicaleffects' 'qt5-quickcontrols2' 'qt5-svg')
+depends=('sddm' 'qt5-declarative' 'qt5-graphicaleffects' 'qt5-quickcontrols2' 'qt5-svg' 'qt5-virtualkeyboard' 
+		 'qt6-declarative' 'qt6-svg' 'qt6-virtualkeyboard' 'qt6-multimedia')
 groups=(archcraft-sddm-themes)
 options=(!strip !emptydirs)
 
@@ -17,4 +18,5 @@ prepare() {
 
 package() {
 	(find archcraft -type f -exec install -Dm 644 "{}" "$pkgdir/usr/share/sddm/themes/{}" \;)
+	(find archcraft-qt5 -type f -exec install -Dm 644 "{}" "$pkgdir/usr/share/sddm/themes/{}" \;)
 }
