@@ -24,11 +24,12 @@ LIST=(aic94xx-firmware
 	  downgrade
 	  evilwm
 	  gtk-engine-murrine
-	  gtk3-nocsd-git
+	  gtk-nocsd-git
 	  gtkmm
 	  i3lock-color
 	  ksuperkey
 	  light
+	  lead-git
 	  mkinitcpio-firmware
 	  mkinitcpio-openswap
 	  #newm-next-git
@@ -38,9 +39,8 @@ LIST=(aic94xx-firmware
 	  perl-linux-desktopfiles
 	  picom-ibhagwan-git
 	  python-thefuzz
-	  rofi-lbonn-wayland-git
-	  sddm-git
 	  simplescreenrecorder
+	  skippy-xd-git
 	  unimatrix-git
 	  upd72020x-fw
 	  wayfire-plugins-extra
