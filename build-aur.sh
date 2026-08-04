@@ -41,6 +41,7 @@ LIST=(aic94xx-firmware
 	  python-thefuzz
 	  simplescreenrecorder
 	  skippy-xd-git
+	  sov
 	  unimatrix-git
 	  upd72020x-fw
 	  wayfire-plugins-extra
